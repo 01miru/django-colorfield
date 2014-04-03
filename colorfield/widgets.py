@@ -12,6 +12,7 @@ $(function(){
         color: '%(color)s',
         onSubmit: function(hsb, hex, rgb, el) { $(el).val(hex); $(el).ColorPickerHide();$(preview).find('div').css('backgroundColor', '#' + hex); },
         onBeforeShow: function () { $(this).ColorPickerSetColor(this.value); },
+        onChange: function(hsb, hex, rgb){ $('#id_%(name)s').val(hex); $(preview).find('div').css('backgroundColor', '#' + hex); }
     }).bind('keyup', function(){ $(this).ColorPickerSetColor(this.value); });
 });})(django.jQuery);</script>
 """
