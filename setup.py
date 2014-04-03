@@ -4,12 +4,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-colorfield',
-    version='1.0.0',
+    version='1.0.1',
     description='Simple colorfield for django (optimized for grappelli)',
     author='Maxime Haineault (Motion Média)',
     author_email='max@motion-m.ca',
-    url='https://github.com/h3/django-colorfield',
-    download_url='https://h3@github.com/h3/django-colorfield.git',
+    url='https://github.com/01miru/django-colorfield',
+    download_url='https://github.com/01miru/django-colorfield.git',
     packages=find_packages(),
     include_package_data=True,
 #   package_data={'colorfield': [
@@ -17,7 +17,7 @@ setup(
 #       ]},
     zip_safe=False,
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: Stable',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
