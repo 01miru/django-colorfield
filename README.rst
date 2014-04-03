@@ -7,7 +7,11 @@ Simple colorfield for django (optimized for grappelli)
 Installation
 ============
 
-Add `colorfield` to your `INSTALLED_APPS`.
+Using PIP:
+
+    pip install git+https://github.com/01miru/django-colorfield.git
+
+Add ``colorfield`` to your ``INSTALLED_APPS``.
 
 Then in your models, you can use it like this:
 
